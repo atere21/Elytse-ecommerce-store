@@ -1,4 +1,6 @@
 import React from 'react'
+// import AOS from 'aos';
+// import 'aos/dist/aos.css';
 
 function Hero() {
   return (
@@ -9,8 +11,12 @@ function Hero() {
             flex flex-col justify-center'>
                 <h1 className='px-4 text-2xl sm:text-4xl md:text-5xl lg:7xl font-bold'>Get the ultimate shopping <br/>
                 <span>Experience</span>
-                <span className='text-[#004DE6]'> from the Comfort of your home</span></h1>
-              
+                <span className='text-[#004DE6]'> from the Comfort 
+                <br/>of your home</span></h1>
+              {/* <Typed strings={[]}/> */}
+              <div className='w-full mx-2 py-12 p-4'>
+              <button className='rounded-full font-bold hover:bg-blue-200 bg-white text-blue-500'>Get Started</button>
+              </div>
             </div>
             <img className='w-full max-h-[500px] object-cover font-bold' src='https://dlabs.ai/wp-content/uploads/2022/03/ai-in-retail-benefits.png' alt='/'/>
        

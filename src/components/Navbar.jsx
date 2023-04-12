@@ -17,15 +17,15 @@ const Navbar = () => {
       {/* left-side */}
       <div className="flex items-center">
         <div onClick={() => setNav(!nav)} className="cursor-pointer">
-          <AiOutlineMenu size={30} className="text-[#C9A800]" />
+          <AiOutlineMenu size={30} className="text-[#12409d]" />
         </div>
 
         <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold px-2 text-[#12409d]">
           Elytse
         </h1>
-        <div className="hidden lg:flex items-center bg-[#B4B8BE] rounded-full p-1 text-[14px]">
+        <div className="hidden lg:flex items-center bg-gray-200 rounded-full p-1 text-[14px]">
           <p className="bg-[#12409d] text-white rounded-full p-2">Delivery</p>
-          <p className="p-2 text-[#C9A800]">Pickup</p>
+          <p className="p-2">Pickup</p>
         </div>
       </div>
       {/* search input */}
@@ -33,16 +33,16 @@ const Navbar = () => {
         className="bg-gray-200 rounded-full flex items-center px-3
    w-[200px] sm:w-[300px] lg:w-[400px]"
       >
-        <AiOutlineSearch size={25} className="text-[#C9A800]" />
+        <AiOutlineSearch size={25} />
         <input className="bg-transparent p-2 w-full focus:outline-none type='text' placeholder='search food' " />
       </div>
 
       {/* cart button */}
       <button
-        className="bg-[#C9A800] text-white hidden md:flex
-   items-center py-2 rounded-full"
+        className="bg-[#004DE6] text-white hidden md:flex
+   items-center border-none py-2 rounded-full"
       >
-        <BsFillCartFill size={20} className="mr-2" /> Cart
+        <BsFillCartFill size={20} className="mr-2 text-[#C9A800]" /> Cart
       </button>
       {/* mobile-menu */}
       {/* overlay */}
@@ -68,7 +68,7 @@ const Navbar = () => {
         <AiOutlineClose
           onClick={() => setNav(!nav)}
           size={30}
-          className="absolute right-4 top-4 cursor-pointer"
+          className="absolute right-4 top-4 cursor-pointer text-[#12409d]"
         />
         <h2 className="text-2xl p-4 text-[#12409d] font-bold">
          Elytse

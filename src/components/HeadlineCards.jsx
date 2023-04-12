@@ -1,4 +1,5 @@
 import React from 'react';
+import { AiOutlineArrowRight } from 'react-icons/ai';
 
 const HeadlineCards = () => {
   return (
@@ -8,10 +9,10 @@ const HeadlineCards = () => {
       <div className='rounded-xl relative'>
         
         {/* Overlay */}
-        <div className='absolute w-full h-full bg-black/50 rounded-xl text-white mx-2'>
-          <p className='font-bold text-sm sm:text-xl px-2 pt-4 '>PASSION-FUELLED CRAFT<br/>
-        </p><span >Read a message feom our founder </span>
-          <p className='px-2'>Through 8/26</p>
+        <div className='absolute w-full  h-full bg-black/50 rounded-xl text-white mx-2'>
+          <p className='font-bold text-sm sm:text-xl px-2 pt-4 flex '>PASSION-FUELLED CRAFT<br/>
+        </p><span >Read a message from our founder </span> <AiOutlineArrowRight className='cursor-pointer hover:text-blue-400'/> 
+          
 
         </div>
         <img
@@ -27,7 +28,7 @@ const HeadlineCards = () => {
         <p className='font-bold text-2xl px-2 pt-4'>We Pick-up And Deliver To You</p>
           <p className='px-2'>We cater to tech-savy Gen Z and Millenials who value personalized
           experiences</p>
-          <button className='border-white bg-white text-black mx-2 absolute bottom-4 '>Learn More</button>
+          <button className='border-white bg-white mx-2 absolute bottom-4  text-[#12409d] hover:bg-[#9db7e8]'>Get Started</button>
         </div>
         <img
         className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
@@ -41,7 +42,7 @@ const HeadlineCards = () => {
         <div className='absolute w-full h-full bg-black/50 rounded-xl text-white'>
           <p className='font-bold text-2xl px-2 pt-4'>GET THE PERFECT FIT!</p>
           <p className='px-2'>Our In-App 3D measuring Technology eliminates the need to visit a tailor</p>
-          <button className='border-white bg-white text-black mx-2 absolute bottom-4'>Start Shopping</button>
+          <button className='border-white bg-white text-[#12409d] hover:bg-[#9db7e8] mx-2 absolute bottom-4'>Take Measurement</button>
         </div>
         <img
         className='max-h-[160px] md:max-h-[200px] w-full object-cover rounded-xl'
