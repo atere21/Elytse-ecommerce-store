@@ -42,7 +42,7 @@ const Talent = () => {
               All
             </button>
             <button
-              onClick={() => filterType('Social Wear')}
+              onClick={() => filterType('Evening Wear')}
               className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-orange-600 hover:text-white'
             >
               Evening Wear
@@ -67,7 +67,7 @@ const Talent = () => {
             </button>
 
             <button
-              onClick={() => filterType('Social Wear')}
+              onClick={() => filterType('Casual Wear')}
               className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-orange-600 hover:text-white'
             >
               Casual Wear

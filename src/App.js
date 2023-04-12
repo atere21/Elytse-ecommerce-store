@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import HeadlineCards from './components/HeadlineCards'
 import Talent from './components/Talent'
-import Process from './components/Process'
+import Newsletter from './components/Newsletter'
 
 const App = () => {
   return (
@@ -12,7 +12,7 @@ const App = () => {
       <Hero/>
       <HeadlineCards/>
       <Talent/>
-      <Process/>
+      <Newsletter/>
     </div>
   )
 }
