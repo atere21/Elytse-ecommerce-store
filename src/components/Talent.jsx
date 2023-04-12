@@ -80,13 +80,13 @@ const Talent = () => {
           <p className='font-bold text-gray-700'>Filter Location</p>
           <div className='flex justify-between max-w-[390px] w-full'>
             <button
-              onClick={() => filterLocation('Lagos Island')}
+              onClick={() => filterLocation('Island')}
               className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-orange-600 hover:text-white'
             >
               Island
             </button>
             <button
-              onClick={() => filterLocation('Lagos Mainland')}
+              onClick={() => filterLocation('Mainland')}
               className='m-1 border-[#004DE6] text-[#C9A800] hover:bg-orange-600 hover:text-white'
             >
                Mainland
