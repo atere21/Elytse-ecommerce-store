@@ -42,7 +42,7 @@ const Navbar = () => {
         className="bg-[#004DE6] text-white hidden md:flex
    items-center border-none py-2 rounded-full"
       >
-        <BsFillCartFill size={20} className="mr-2 text-[#C9A800]" /> Cart
+        <BsFillCartFill size={20} className="mr-2 text-white border-none" /> Cart
       </button>
       {/* mobile-menu */}
       {/* overlay */}
