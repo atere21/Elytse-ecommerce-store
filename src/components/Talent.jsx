@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { data } from '../data/data.js';
+// import Typed from 'react-typed';
 
 const Talent = () => {
   //   console.log(data);
@@ -28,49 +29,53 @@ const Talent = () => {
       <h1 className='text-[#C9A800] font-bold text-4xl text-center'>
         Meet Talent In Our Network
       </h1>
-      <p className='text-[#C9A800] font-sm text-xl text-center pb-8'>Access a strong community of over 5,000 vetted fashion designers</p>
+      <p className='text-[#C9A800] font-sm text-xl text-center pb-8'>
+        Access a strong community of over 5,000 vetted fashion designers</p>
+      
       {/* Filter Row */}
+      {/* <Typed strings={[]}/> */}
       <div className='flex flex-col lg:flex-row justify-between'>
+       
         {/* Fliter Type */}
         <div>
           <p className='font-bold text-gray-700'>Filter Type</p>
           <div className='flex justfiy-between flex-wrap'>
             <button
               onClick={() => setTailor(data)}
-              className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-orange-600 hover:text-white'
+              className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-black hover:text-white'
             >
               All
             </button>
             <button
-              onClick={() => filterType('Evening Wear')}
-              className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-orange-600 hover:text-white'
+              onClick={() => filterType('fabric merchant')}
+              className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-black hover:text-white'
             >
-              Evening Wear
+              Fabric Merchant
             </button>
             <button
-              onClick={() => filterType('Bridal Wear')}
-              className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-orange-600 hover:text-white'
+              onClick={() => filterType('fashion designer')}
+              className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-black hover:text-white'
             >
-              Bridal Wear
+              Fashion Designer
             </button>
             <button
-              onClick={() => filterType('Suits')}
-              className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-orange-600 hover:text-white'
+              onClick={() => filterType('shoe cobbler')}
+              className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-black hover:text-white'
             >
-              Suits
+              Shoe Cobbler
             </button>
-            <button
+            {/* <button
               onClick={() => filterType('Social Wear')}
               className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-orange-600 hover:text-white'
             >
-              Social Wear
-            </button>
+              
+            </button> */}
 
             <button
-              onClick={() => filterType('Casual Wear')}
+              onClick={() => filterType('gold smith')}
               className='m-1  border-[#004DE6] text-[#C9A800] hover:bg-orange-600 hover:text-white'
             >
-              Casual Wear
+              Gold Smith
             </button>
           </div>
         </div>

@@ -47,17 +47,19 @@ function Hero() {
 		<div style={styleBg} className='object-cover'>
 			<h1
 				data-aos='fade-right'
-				className='font-bold w-full text-2xl md:text-4xl drop-shadow-2xl text-white mt-[3rem] sm:mt-[7rem] leading-relaxed md:leading-relaxed text-center sm:text-left
+				className='font-bold py-[8rem] md:py[4rem] md w-full text-3xl md:text-5xl drop-shadow-2xl text-white mt-[3rem] sm:mt-[7rem] leading-relaxed md:leading-relaxed text-center sm:text-left
         mx-[2rem]'>
-				Get the ultimate shopping
-				<br /> <span className='text-[#C9A800]'>Experience from the Comfort</span>
+				SWITCH UP YOUR DIGITAL
+				<br /> <span className='text-[#C9A800]'>CLOTHING</span>
 				
-				<br /> of your home
+				<br /> 
 			</h1>
 
 			<p
 				data-aos='fade-right'
-				className='drop-shadow-2xl font-bold sm:font-[500] py-8 text-xl  text-center leading-relaxed sm:text-left text-[#5f5f68] '>
+				className='drop-shadow-2xl font-bold sm:font-[500] py-2 text-xl  text-center leading-relaxed sm:text-left text-white
+				md:mx-8 mx-4'>
+               BUILD YOUR METAVERSE LOOK
 				
 			</p>
 
